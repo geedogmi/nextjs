@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    image: next-web   # 여기에 Docker 이미지 이름을 넣으세요
+    ports:
+      - "3000:3000"  # 호스트와 컨테이너의 포트 매핑
+  
+  docker:
+    image: next-docker   # 여기에 Docker 이미지 이름을 넣으세요
+    ports:
+      - "3001:3001"  # 호스트와 컨테이너의 포트 매핑
+  
+  kube:
+    image: next-kube   # 여기에 Docker 이미지 이름을 넣으세요
+    ports:
+      - "3002:3002"  # 호스트와 컨테이너의 포트 매핑
+      

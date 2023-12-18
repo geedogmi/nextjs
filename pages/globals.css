@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: indianred;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+.title-sub {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.top {
+  background-color: lightpink;
+  padding: 20px;
+}
+
+.top a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
